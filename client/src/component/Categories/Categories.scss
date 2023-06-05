@@ -1,0 +1,80 @@
+.categories{
+    display: flex;
+    height: 80vh;
+    gap: 10px;
+    margin: 10px;
+
+    .col{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .rowSuhr{
+            flex:1;
+            display: flex;
+            gap: 10px;
+            position: relative;
+            overflow: hidden;
+            height: 100%;
+            width: 500px;
+            
+        }
+
+    }
+    .col-l{
+        flex:2;
+    }
+
+    .row{
+        flex:1;
+        display: flex;
+        gap: 10px;
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+
+
+        button{
+            position: absolute;
+            min-width: 100px;
+            height: 50px;
+            padding: 10px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            cursor: pointer;
+            border: none;
+            background-color: white;
+            text-transform: uppercase;
+            font-weight: 500;
+            
+        }
+        
+
+        img{
+            width:450px;
+            height:100%;
+            object-fit: cover;       
+            
+        }
+
+        .large{
+            width:auto;
+            height:100%;
+            object-fit: cover;
+
+        }
+        .col{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        
+    }
+
+        
+}
